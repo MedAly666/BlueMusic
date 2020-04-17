@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <script src='file:///android_asset/app.js'></script>
+</head>
+	
+<script>
+   function Back(){
+		app.Execute( "dlg.Hide()" );
+   }
+</script>
+
+<style>
+	body { background-color: #ffffff;
+		margin:0;
+		padding:0;
+	}
+	header {
+		width:100%;
+		height:1cm;
+		
+		background-color:#0000ff;
+		color:#ffffff;
+		
+		position:fixed;
+		top:0;
+	}
+	header img{
+		width:1cm;
+		height:1cm;
+		
+		position:fixed;
+		left:0;
+	}
+	header span {
+		width:90%;
+		height:1cm;
+		text-align:center;
+		
+		position:fixed;
+		top:0px;
+	}
+	header button {
+		width:1cm;
+		height:1cm;
+		
+		background-color:#0000ff;
+		color:#ffffff;
+		border:solid 1px #0000ff;
+		
+		position:absolute;
+		top:0;
+		right:0;
+	}
+	article {
+		width:100%;
+	
+		position:absolute;
+		top:1cm;
+	}
+	article h4 {
+		width:100%;
+		
+		text-align:center;
+	}
+	article p {
+		text-indent:0.75cm;
+		padding:3px 3px 3px 3px;
+	}
+</style>
+
+<body onload="app.Start()">
+	<header>
+		<span><img src="Img/about.png" ><b><big><big>	About this app</big></big></b></span>
+		<button onclick="Back()">→</button>
+	</header>
+	<article>
+		<h4>welcome in <i><u>BlueMusic</u></i></h4>
+		<p>This app is created by <b>Med Aly</b> in <b>new horizon software</b> under <u>Mozilla Public License</u>
+		
+		</p>
+		<p>accomplished this work by the application droidscript and try on android device 5.1</p>
+		<p>This is a trial version of our app ,our organization, its financiers and employees ,they are not legally responsible for any harm that may result from the use of this application.</p>
+		<p>To contact us:
+		<a href="mailto:newhorizonsoftware@gmail.com" >newhorizonsoftware@gmail.com</a>
+	</article>
+	<footer>
+	
+	</footer>
+</body>
+</html>
